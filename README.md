@@ -44,7 +44,15 @@ We will implement codes for image rectification and a basic stereo algorithm.
 
 To Implement rectification and stereo algorithms:
 
-(a) Interpolate image using bayer image interpolation.
-(b) Find fundamental matrix using the normalized eight point algorithm. 
-(c) Rectify stereo images by applying homography.
-(d) Make a cost volume using zero-mean NCC(normalized cross correlation) matching cost function for the two rectified images, then obtain disparity map from the cost volume after aggregate it with a box filter. (calculate_disparity_map)
+1. Interpolate image using bayer image interpolation.
+2. Find fundamental matrix using the normalized eight point algorithm. 
+3. Rectify stereo images by applying homography.
+4. Make a cost volume using zero-mean NCC(normalized cross correlation) matching cost function for the two rectified images, then obtain disparity map from the cost volume after aggregate it with a box filter. (calculate_disparity_map)
+
+
+
+
+## Results
+![](https://github.com/dzmanashvilisaba/Computer-Vision/blob/main/Stereo%20Matching/result/rectified_anaglyph.png)
+![](https://github.com/dzmanashvilisaba/Computer-Vision/blob/main/Stereo%20Matching/result/disparity_map.png)
+
