@@ -35,3 +35,16 @@ To Implement scene recognition schemes:
 ## Results
 ![](https://github.com/dzmanashvilisaba/Computer-Vision/blob/main/Bag%20of%20Words/confusion_matrix.png)
 ![](https://github.com/dzmanashvilisaba/Computer-Vision/blob/main/Bag%20of%20Words/Untitled.png)
+
+
+
+# Stereo Matching
+
+We will implement codes for image rectification and a basic stereo algorithm. 
+
+To Implement rectification and stereo algorithms:
+
+(a) Interpolate image using bayer image interpolation.
+(b) Find fundamental matrix using the normalized eight point algorithm. 
+(c) Rectify stereo images by applying homography.
+(d) Make a cost volume using zero-mean NCC(normalized cross correlation) matching cost function for the two rectified images, then obtain disparity map from the cost volume after aggregate it with a box filter. (calculate_disparity_map)
